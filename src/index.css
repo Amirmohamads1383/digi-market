@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+    @font-face {
+        font-family: YekanBakh;
+        src: url(/font/YekanBakhFaNum-VF.ttf);
+    }
+}
+
+@layer components {
+    .container {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+}
+
+@theme {
+    --color-Primary: #4357BE;
+    --color-Backg: #FCFCFC;
+    --color-Title: #3D4349;
+    --color-Caption: #ADADAD;
+    --font-YekanBakh: YekanBakh;
+}
