@@ -16,8 +16,9 @@
 
 @theme {
     --color-Primary: #4357BE;
-    --color-Backg: #FCFCFC;
+    --color-Backg: #F8F8F8;
     --color-Title: #3D4349;
     --color-Caption: #ADADAD;
     --font-YekanBakh: YekanBakh;
+    --breakpoint-xs: 480px;
 }
