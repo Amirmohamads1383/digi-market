@@ -91,7 +91,7 @@ export default function Icons() {
   return (
     <div className="flex items-center justify-center gap-2.5">
       {icons.map((icon) => (
-        <span className="w-12 h-12 flex items-center justify-center bg-[#5264C3] text-white rounded-2xl cursor-pointer">{icon.icon}</span>
+        <span key={icon.id} className="w-12 h-12 flex items-center justify-center bg-[#5264C3] text-white rounded-2xl cursor-pointer">{icon.icon}</span>
       ))}
     </div>
   );

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "fa": "موبایل",
+            "en": "Mobile"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='2' width='14' height='20' rx='2' ry='2'/><line x1='12' y1='18' x2='12.01' y2='18'/><circle cx='12' cy='6' r='1' fill='#b1b9e2' stroke='#4357be'/></svg>"
+    },
+    {
+        "id": 2,
+        "name": {
+            "fa": "لپ تاپ",
+            "en": "Laptop"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><line x1='2' y1='20' x2='22' y2='20'/><line x1='8' y1='21' x2='16' y2='21'/><rect x='8' y='8' width='8' height='4' rx='1' fill='#b1b9e2' stroke='#4357be'/></svg>"
+    },
+    {
+        "id": 3,
+        "name": {
+            "fa": "تبلت",
+            "en": "Tablet"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='4' y='2' width='16' height='20' rx='2' ry='2'/><line x1='12' y1='18' x2='12.01' y2='18'/><circle cx='12' cy='6' r='1' fill='#b1b9e2' stroke='#4357be'/></svg>"
+    },
+    {
+        "id": 4,
+        "name": {
+            "fa": "ساعت هوشمند",
+            "en": "Smart Watch"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'><circle cx='12' cy='12' r='7' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><polyline points='12 9 12 12 14 14' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><rect x='6' y='2' width='12' height='4' rx='1' fill='#b1b9e2' stroke='#4357be' stroke-width='1.5'/><rect x='6' y='18' width='12' height='4' rx='1' fill='#b1b9e2' stroke='#4357be' stroke-width='1.5'/><circle cx='12' cy='12' r='3' fill='#b1b9e2' opacity='0.2'/></svg>"
+    },
+    {
+        "id": 5,
+        "name": {
+            "fa": "هدفون و هندزفری",
+            "en": "Headphones"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 18v-6a9 9 0 0 1 18 0v6'/><path d='M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z'/><path d='M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z'/><circle cx='9' cy='12' r='1.5' fill='#b1b9e2'/><circle cx='15' cy='12' r='1.5' fill='#b1b9e2'/></svg>"
+    },
+    {
+        "id": 6,
+        "name": {
+            "fa": "اسپیکر",
+            "en": "Speaker"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='4' y='2' width='16' height='20' rx='2' stroke='#4357be'/><circle cx='12' cy='14' r='4' stroke='#4357be'/><circle cx='12' cy='6' r='1.5' fill='#b1b9e2' stroke='#4357be'/><circle cx='12' cy='14' r='2' fill='#b1b9e2' opacity='0.4'/></svg>"
+    },
+    {
+        "id": 7,
+        "name": {
+            "fa": "کنسول بازی",
+            "en": "Gaming Console"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none'><rect x='2' y='6' width='20' height='12' rx='2' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><circle cx='6' cy='12' r='1.5' fill='#b1b9e2' stroke='#4357be' stroke-width='1'/><circle cx='18' cy='12' r='1.5' fill='#b1b9e2' stroke='#4357be' stroke-width='1'/><path d='M10 10v4' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M8 12h4' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M14 12h4' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M16 10v4' stroke='#4357be' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><rect x='11' y='8' width='2' height='8' fill='#b1b9e2' opacity='0.2'/></svg>"
+    },
+    {
+        "id": 8,
+        "name": {
+            "fa": "مانیتور",
+            "en": "Monitor"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='20' height='14' rx='2' stroke='#4357be'/><line x1='8' y1='21' x2='16' y2='21'/><line x1='12' y1='17' x2='12' y2='21'/><rect x='6' y='7' width='12' height='6' rx='1' fill='#b1b9e2' opacity='0.3' stroke='#4357be'/></svg>"
+    },
+    {
+        "id": 9,
+        "name": {
+            "fa": "کیبورد",
+            "en": "Keyboard"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='6' width='20' height='12' rx='2' stroke='#4357be'/><line x1='6' y1='10' x2='6' y2='10'/><line x1='9' y1='10' x2='9' y2='10'/><line x1='12' y1='10' x2='12' y2='10'/><line x1='15' y1='10' x2='15' y2='10'/><line x1='18' y1='10' x2='18' y2='10'/><line x1='6' y1='14' x2='6' y2='14'/><line x1='9' y1='14' x2='9' y2='14'/><line x1='12' y1='14' x2='12' y2='14'/><line x1='15' y1='14' x2='15' y2='14'/><line x1='18' y1='14' x2='18' y2='14'/><rect x='4' y='8' width='16' height='2' fill='#b1b9e2' opacity='0.3'/></svg>"
+    },
+    {
+        "id": 10,
+        "name": {
+            "fa": "ماوس",
+            "en": "Mouse"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='2' width='14' height='20' rx='7' stroke='#4357be'/><line x1='12' y1='6' x2='12' y2='12'/><circle cx='12' cy='15' r='2' fill='#b1b9e2' opacity='0.4' stroke='#4357be'/></svg>"
+    },
+    {
+        "id": 11,
+        "name": {
+            "fa": "دوربین",
+            "en": "Camera"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z' stroke='#4357be'/><circle cx='12' cy='13' r='4' stroke='#4357be'/><circle cx='12' cy='13' r='2' fill='#b1b9e2' opacity='0.4'/><rect x='17' y='9' width='2' height='2' rx='0.5' fill='#b1b9e2' stroke='#4357be'/></svg>"
+    },
+    {
+        "id": 12,
+        "name": {
+            "fa": "لوازم جانبی",
+            "en": "Accessories"
+        },
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4357be' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='3' stroke='#4357be'/><path d='M19.4 15a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H5.78a1.65 1.65 0 0 0-1.51 1 1.65 1.65 0 0 0 .33 1.82l.04.04A10 10 0 0 0 12 21a10 10 0 0 0 6.36-5.96z' stroke='#4357be'/><path d='M4.6 9a1.65 1.65 0 0 0-.33 1.82c.26.6.86.96 1.51 1h12.44a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82L19.4 8.96A10 10 0 0 0 12 3a10 10 0 0 0-6.36 5.96z' stroke='#4357be'/><circle cx='12' cy='12' r='1.5' fill='#b1b9e2' opacity='0.5'/><path d='M8 12h8' stroke='#b1b9e2' stroke-width='1.5'/><path d='M12 8v8' stroke='#b1b9e2' stroke-width='1.5'/></svg>"
+    }
+]

@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import HeroBanner from "../../component/Home/HeroBanner";
+import Categories from "../../component/Home/Categories";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <HeroBanner />
+      <Categories />
+    </>
+  );
 }
