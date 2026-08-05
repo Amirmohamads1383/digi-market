@@ -1,0 +1,921 @@
+[
+    {
+        "id": 1,
+        "title": "لپ تاپ ایسوس مدل VivoBook 15 X1504VA",
+        "title_en": "Asus VivoBook 15 X1504VA",
+        "price": 32990000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-1.webp",
+            "/image/product/laptop-1-1.webp",
+            "/image/product/laptop-1-2.webp",
+            "/image/product/laptop-1-3.webp",
+            "/image/product/laptop-1-4.webp",
+            "/image/product/laptop-1-5.webp",
+            "/image/product/laptop-1-6.webp",
+            "/image/product/laptop-1-7.webp"
+        ],
+        "discountPercent": 15,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 8,
+        "warranties": [
+            "گارانتی ۱۸ ماهه ایسوس",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "ایسوس با لپ‌تاپ‌های سری Vivobook، گزینه‌های زیادی در بازه‌های قیمتی مختلف در برابر کاربران می‌گذارد. لپ‌تاپ Vivobook X1504VA یکی از گزینه‌های اقتصادی این سری به حساب می‌آید و برای کاربری روزمره و عمومی و استفاده در محیط کاری یا تحصیلی، انتخاب ایده‌آلی خواهد بود. این لپ‌تاپ 15.6 اینچی به لطف طراحی ظریف و ابعاد جمع و جور و همچنین وزن 1.7 کیلوگرمی، به راحتی قابل جابجایی است و در این زمینه مشکل چندانی در پیش نخواهید داشت. صفحه‌نمایش به لطف استفاده از پنل TN و رزولوشن 1920 در 1080، تصویر قابل قبولی تولید کرده و دقت رنگ مناسبی دارد. این نمایشگر تا حداکثر 250 نیست روشنایی تولید کرده و نرخ به‌روزرسانی 60 هرتزی دارد که برای این رده کاربری کاملا مناسب خواهند بود. پردازنده Core i5 مدل 1334U با 10 هسته و 12 رشته پردازشی، مغز متفکر این سیستم بوده و با حداکثر فرکانس 4.6 گیگاهرتزی برای پردازش‌های سبک تا متوسط کافی خواهد بود‌‌. پردازش‌های گرافیکی بر عهده UHD Graphics است که به صورت یکپارچه با CPU بوده و ضمن کاهش مصرف باتری، از قدرت کافی برای رفع نیاز کاربر برخوردار است. لپ‌تاپ Vivobook X1504VA برای پردازش‌های سنگین ساخته نشده؛ اما گزینه‌ی مناسبی برای استفاده کاری، تحصیلی، وبگردی و کاربری روزمره بوده که قیمت اقتصادی و مناسبی هم دارد.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Intel Core i7"
+            },
+            {
+                "title": "رم",
+                "value": "16GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "512GB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "آبی",
+                "hexa": "#0000FF"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "لپ تاپ لنوو مدل Ideapad Gaming 3",
+        "title_en": "Lenovo Ideapad Gaming 3",
+        "price": 41900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-2.webp",
+            "/image/product/laptop-2-1.webp"
+        ],
+        "discountPercent": 20,
+        "rate": 3,
+        "shippingToday": false,
+        "stock": 3,
+        "warranties": [
+            "گارانتی ۱۲ ماهه لنوو"
+        ],
+        "description": "لپ تاپ گیمینگ لنوو مدل Ideapad Gaming 3 با پردازنده AMD Ryzen 7، رم ۳۲ گیگابایت و حافظه ۱ ترابایت SSD، مناسب برای بازی‌های سنگین و مولتی‌تسکینگ.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "AMD Ryzen 7"
+            },
+            {
+                "title": "رم",
+                "value": "32GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "1TB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "خاکستری",
+                "hexa": "#808080"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "گوشی موبایل سامسونگ مدل Galaxy S24 Ultra",
+        "title_en": "Samsung Galaxy S24 Ultra",
+        "price": 59900000,
+        "category": "mobile",
+        "categorypersian": "موبایل",
+        "image": [
+            "/image/product/mobile-1.webp",
+            "/image/product/mobile-1-1.webp",
+            "/image/product/mobile-1-2.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 12,
+        "warranties": [
+            "گارانتی ۲۴ ماهه سامسونگ",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "گوشی موبایل سامسونگ مدل Galaxy S24 Ultra با دوربین ۲۰۰ مگاپیکسلی، صفحه نمایش ۶.۸ اینچی Dynamic AMOLED و باتری ۵۰۰۰ میلی‌آمپر، بهترین گوشی پرچمدار سامسونگ.",
+        "specs": [
+            {
+                "title": "صفحه نمایش",
+                "value": "۶.۸ اینچ Dynamic AMOLED"
+            },
+            {
+                "title": "دوربین",
+                "value": "۲۰۰ مگاپیکسل"
+            },
+            {
+                "title": "باتری",
+                "value": "۵۰۰۰ میلی‌آمپر"
+            }
+        ],
+        "colors": [
+            {
+                "title": "تیتانیوم مشکی",
+                "hexa": "#1A1A1A"
+            },
+            {
+                "title": "تیتانیوم خاکستری",
+                "hexa": "#8C8C8C"
+            },
+            {
+                "title": "تیتانیوم بنفش",
+                "hexa": "#7B2FBE"
+            },
+            {
+                "title": "تیتانیوم زرد",
+                "hexa": "#FFD700"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "لپ تاپ اپل مک‌بوک پرو 16 اینچ",
+        "title_en": "Apple MacBook Pro 16",
+        "price": 84900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-3.webp",
+            "/image/product/laptop-3-1.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 6,
+        "warranties": [
+            "گارانتی ۱۲ ماهه اپل"
+        ],
+        "description": "لپ تاپ اپل مک‌بوک پرو ۱۶ اینچ با پردازنده Apple M3 Pro، رم ۱۸ گیگابایت و حافظه ۵۱۲ گیگابایت SSD، مناسب برای طراحان و برنامه‌نویسان حرفه‌ای.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Apple M3 Pro"
+            },
+            {
+                "title": "رم",
+                "value": "18GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "512GB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "خاکستری فضایی",
+                "hexa": "#2C2C2C"
+            },
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "هدفون بی‌سیم اپل ایرپادز مکس",
+        "title_en": "Apple AirPods Max",
+        "price": 12900000,
+        "category": "headphone",
+        "categorypersian": "هدفون",
+        "image": [
+            "/image/product/headphone-1.webp",
+            "/image/product/headphone-1-1.webp"
+        ],
+        "discountPercent": 0,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 15,
+        "warranties": [
+            "گارانتی ۱۸ ماهه اپل"
+        ],
+        "description": "هدفون بی‌سیم اپل ایرپادز مکس با کیفیت صدای فوق‌العاده، حذف نویز فعال و طراحی لوکس، مناسب برای علاقه‌مندان به موسیقی.",
+        "specs": [
+            {
+                "title": "نوع اتصال",
+                "value": "بی‌سیم"
+            },
+            {
+                "title": "حذف نویز",
+                "value": "فعال"
+            },
+            {
+                "title": "باتری",
+                "value": "۲۰ ساعت"
+            }
+        ],
+        "colors": [
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "آبی",
+                "hexa": "#0000FF"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "کارت گرافیک انویدیا GeForce RTX 4090",
+        "title_en": "NVIDIA GeForce RTX 4090",
+        "price": 75000000,
+        "category": "pc-parts",
+        "categorypersian": "قطعات کامپیوتر",
+        "image": [
+            "/image/product/gpu-1.webp",
+            "/image/product/gpu-1-1.webp"
+        ],
+        "discountPercent": 5,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 2,
+        "warranties": [
+            "گارانتی ۳۶ ماهه انویدیا",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "کارت گرافیک انویدیا GeForce RTX 4090 با ۲۴ گیگابایت حافظه GDDR6X، مناسب برای گیمینگ ۴K، رندرینگ و هوش مصنوعی.",
+        "specs": [
+            {
+                "title": "حافظه",
+                "value": "24GB GDDR6X"
+            },
+            {
+                "title": "پهنای باند",
+                "value": "۱ ترابایت بر ثانیه"
+            },
+            {
+                "title": "مصرف انرژی",
+                "value": "۴۵۰ وات"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "لپ تاپ مایکروسافت سرفیس پرو 9",
+        "title_en": "Microsoft Surface Pro 9",
+        "price": 62900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-4.webp",
+            "/image/product/laptop-4-1.webp"
+        ],
+        "discountPercent": 18,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 7,
+        "warranties": [
+            "گارانتی ۱۲ ماهه مایکروسافت"
+        ],
+        "description": "لپ تاپ مایکروسافت سرفیس پرو ۹ با پردازنده Intel Core i5، رم ۱۶ گیگابایت و حافظه ۲۵۶ گیگابایت SSD، طراحی ۲ در ۱ و صفحه لمسی.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Intel Core i5"
+            },
+            {
+                "title": "رم",
+                "value": "16GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "256GB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "پلاتینیوم",
+                "hexa": "#E5E4E2"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "آبی",
+                "hexa": "#0000FF"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "مانیتور گیمینگ سامسونگ 27 اینچ",
+        "title_en": "Samsung 27 Gaming Monitor",
+        "price": 12500000,
+        "category": "pc-parts",
+        "categorypersian": "قطعات کامپیوتر",
+        "image": [
+            "/image/product/monitor-1.webp",
+            "/image/product/monitor-1-1.webp"
+        ],
+        "discountPercent": 22,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 10,
+        "warranties": [
+            "گارانتی ۲۴ ماهه سامسونگ"
+        ],
+        "description": "مانیتور گیمینگ سامسونگ ۲۷ اینچ با رفرش‌ریت ۱۴۴ هرتز، رزولوشن ۲K و فناوری G-Sync، مناسب برای گیمرهای حرفه‌ای.",
+        "specs": [
+            {
+                "title": "سایز",
+                "value": "۲۷ اینچ"
+            },
+            {
+                "title": "رفرش‌ریت",
+                "value": "۱۴۴ هرتز"
+            },
+            {
+                "title": "رزولوشن",
+                "value": "۲۵۶۰×۱۴۴۰"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "سفید",
+                "hexa": "#FFFFFF"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "لپ تاپ دل اینسپایرون 15",
+        "title_en": "Dell Inspiron 15",
+        "price": 27900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-5.webp",
+            "/image/product/laptop-5-1.webp"
+        ],
+        "discountPercent": 25,
+        "rate": 3,
+        "shippingToday": false,
+        "stock": 4,
+        "warranties": [
+            "گارانتی ۱۸ ماهه دل",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "لپ تاپ دل اینسپایرون ۱۵ با پردازنده Intel Core i5، رم ۸ گیگابایت و حافظه ۵۱۲ گیگابایت SSD، مناسب برای استفاده روزمره و اداری.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Intel Core i5"
+            },
+            {
+                "title": "رم",
+                "value": "8GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "512GB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro",
+        "title_en": "Xiaomi Redmi Note 13 Pro",
+        "price": 14900000,
+        "category": "mobile",
+        "categorypersian": "موبایل",
+        "image": [
+            "/image/product/mobile-2.webp",
+            "/image/product/mobile-2-1.webp"
+        ],
+        "discountPercent": 17,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 20,
+        "warranties": [
+            "گارانتی ۱۲ ماهه شیائومی"
+        ],
+        "description": "گوشی موبایل شیائومی مدل Redmi Note 13 Pro با دوربین ۲۰۰ مگاپیکسلی، صفحه نمایش ۶.۶۷ اینچی AMOLED و باتری ۵۱۰۰ میلی‌آمپر، ارزش خرید بالا.",
+        "specs": [
+            {
+                "title": "صفحه نمایش",
+                "value": "۶.۶۷ اینچ AMOLED"
+            },
+            {
+                "title": "دوربین",
+                "value": "۲۰۰ مگاپیکسل"
+            },
+            {
+                "title": "باتری",
+                "value": "۵۱۰۰ میلی‌آمپر"
+            }
+        ],
+        "colors": [
+            {
+                "title": "آبی",
+                "hexa": "#0000FF"
+            },
+            {
+                "title": "سفید",
+                "hexa": "#FFFFFF"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "رم کامپیوتر کینگستون 32GB DDR5",
+        "title_en": "Kingston 32GB DDR5 RAM",
+        "price": 4500000,
+        "category": "pc-parts",
+        "categorypersian": "قطعات کامپیوتر",
+        "image": [
+            "/image/product/ram-1.webp",
+            "/image/product/ram-1-1.webp"
+        ],
+        "discountPercent": 14,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 25,
+        "warranties": [
+            "گارانتی مادام‌العمر کینگستون"
+        ],
+        "description": "رم کامپیوتر کینگستون ۳۲ گیگابایت DDR5 با سرعت ۵۲۰۰ مگاهرتز، مناسب برای سیستم‌های نسل جدید و گیمینگ.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "32GB"
+            },
+            {
+                "title": "نوع",
+                "value": "DDR5"
+            },
+            {
+                "title": "سرعت",
+                "value": "۵۲۰۰ مگاهرتز"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "لپ تاپ ایسر مدل Swift 3",
+        "title_en": "Acer Swift 3",
+        "price": 36900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-6.webp",
+            "/image/product/laptop-6-1.webp"
+        ],
+        "discountPercent": 11,
+        "rate": 3,
+        "shippingToday": true,
+        "stock": 0,
+        "warranties": [
+            "گارانتی ۱۸ ماهه ایسر"
+        ],
+        "description": "لپ تاپ ایسر مدل Swift 3 با پردازنده Intel Core i7، رم ۱۶ گیگابایت و حافظه ۱ ترابایت SSD، فوق‌نازک و سبک برای کاربران حرفه‌ای.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Intel Core i7"
+            },
+            {
+                "title": "رم",
+                "value": "16GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "1TB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            },
+            {
+                "title": "طلایی",
+                "hexa": "#FFD700"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "هدفون گیمینگ رزر مدل Kraken",
+        "title_en": "Razer Kraken",
+        "price": 6500000,
+        "category": "headphone",
+        "categorypersian": "هدفون",
+        "image": [
+            "/image/product/headphone-2.webp",
+            "/image/product/headphone-2-1.webp"
+        ],
+        "discountPercent": 28,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 18,
+        "warranties": [
+            "گارانتی ۱۲ ماهه رزر"
+        ],
+        "description": "هدفون گیمینگ رزر مدل Kraken با کیفیت صدای عالی، میکروفون کشویی و طراحی ارگونومیک، مناسب برای گیمرها.",
+        "specs": [
+            {
+                "title": "نوع اتصال",
+                "value": "سیمی"
+            },
+            {
+                "title": "میکروفون",
+                "value": "کشویی"
+            },
+            {
+                "title": "وزن",
+                "value": "۳۲۲ گرم"
+            }
+        ],
+        "colors": [
+            {
+                "title": "سبز",
+                "hexa": "#00FF00"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "لپ تاپ اچ پی مدل Pavilion 15",
+        "title_en": "HP Pavilion 15",
+        "price": 29900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-7.webp",
+            "/image/product/laptop-7-1.webp"
+        ],
+        "discountPercent": 19,
+        "rate": 3,
+        "shippingToday": false,
+        "stock": 6,
+        "warranties": [
+            "گارانتی ۱۲ ماهه اچ پی"
+        ],
+        "description": "لپ تاپ اچ پی مدل Pavilion 15 با پردازنده AMD Ryzen 5، رم ۸ گیگابایت و حافظه ۵۱۲ گیگابایت SSD، مناسب برای کارهای روزمره و دانشجویی.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "AMD Ryzen 5"
+            },
+            {
+                "title": "رم",
+                "value": "8GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "512GB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "طلایی",
+                "hexa": "#FFD700"
+            },
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "مادربرد ایسوس ROG Strix Z790",
+        "title_en": "Asus ROG Strix Z790",
+        "price": 18500000,
+        "category": "pc-parts",
+        "categorypersian": "قطعات کامپیوتر",
+        "image": [
+            "/image/product/motherboard-1.webp",
+            "/image/product/motherboard-1-1.webp"
+        ],
+        "discountPercent": 9,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 5,
+        "warranties": [
+            "گارانتی ۳۶ ماهه ایسوس",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "مادربرد ایسوس ROG Strix Z790 با پشتیبانی از پردازنده‌های نسل ۱۳ و ۱۴ اینتل، DDR5 و PCIe 5.0، مناسب برای گیمینگ و اورکلاک.",
+        "specs": [
+            {
+                "title": "سوکت",
+                "value": "LGA 1700"
+            },
+            {
+                "title": "نوع رم",
+                "value": "DDR5"
+            },
+            {
+                "title": "فرم فاکتور",
+                "value": "ATX"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "لپ تاپ گیمینگ ام‌اس آی مدل Katana 17",
+        "title_en": "MSI Katana 17",
+        "price": 58900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-8.webp",
+            "/image/product/laptop-8-1.webp"
+        ],
+        "discountPercent": 13,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 4,
+        "warranties": [
+            "گارانتی ۲۴ ماهه ام‌اس آی",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "لپ تاپ گیمینگ ام‌اس آی مدل Katana 17 با پردازنده Intel Core i9، رم ۳۲ گیگابایت و حافظه ۲ ترابایت SSD، مناسب برای سنگین‌ترین بازی‌ها.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Intel Core i9"
+            },
+            {
+                "title": "رم",
+                "value": "32GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "2TB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "قرمز",
+                "hexa": "#FF0000"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "گوشی موبایل اپل آیفون 15 پرو مکس",
+        "title_en": "Apple iPhone 15 Pro Max",
+        "price": 79900000,
+        "category": "mobile",
+        "categorypersian": "موبایل",
+        "image": [
+            "/image/product/mobile-3.webp",
+            "/image/product/mobile-3-1.webp",
+            "/image/product/mobile-3-2.webp"
+        ],
+        "discountPercent": 7,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 10,
+        "warranties": [
+            "گارانتی ۱۸ ماهه اپل"
+        ],
+        "description": "گوشی موبایل اپل آیفون ۱۵ پرو مکس با تراشه A17 Pro، دوربین ۴۸ مگاپیکسلی و باتری ۴۴۲۲ میلی‌آمپر، بهترین گوشی اپل.",
+        "specs": [
+            {
+                "title": "صفحه نمایش",
+                "value": "۶.۷ اینچ Super Retina XDR"
+            },
+            {
+                "title": "دوربین",
+                "value": "۴۸ مگاپیکسل"
+            },
+            {
+                "title": "باتری",
+                "value": "۴۴۲۲ میلی‌آمپر"
+            }
+        ],
+        "colors": [
+            {
+                "title": "تیتانیوم طبیعی",
+                "hexa": "#8C8C8C"
+            },
+            {
+                "title": "تیتانیوم آبی",
+                "hexa": "#4A7B9D"
+            },
+            {
+                "title": "تیتانیوم سفید",
+                "hexa": "#F5F5F5"
+            },
+            {
+                "title": "تیتانیوم مشکی",
+                "hexa": "#1A1A1A"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "هدفون سونی مدل WH-1000XM5",
+        "title_en": "Sony WH-1000XM5",
+        "price": 15900000,
+        "category": "headphone",
+        "categorypersian": "هدفون",
+        "image": [
+            "/image/product/headphone-3.webp",
+            "/image/product/headphone-3-1.webp"
+        ],
+        "discountPercent": 16,
+        "rate": 5,
+        "shippingToday": false,
+        "stock": 8,
+        "warranties": [
+            "گارانتی ۲۴ ماهه سونی"
+        ],
+        "description": "هدفون سونی مدل WH-1000XM5 با حذف نویز پیشرفته، کیفیت صدای فوق‌العاده و باتری ۳۰ ساعته، بهترین هدفون بی‌سیم بازار.",
+        "specs": [
+            {
+                "title": "نوع اتصال",
+                "value": "بی‌سیم"
+            },
+            {
+                "title": "حذف نویز",
+                "value": "پیشرفته"
+            },
+            {
+                "title": "باتری",
+                "value": "۳۰ ساعت"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            },
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "لپ تاپ گوگل پیکسل بوک",
+        "title_en": "Google Pixelbook",
+        "price": 47900000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/laptop-9.webp",
+            "/image/product/laptop-9-1.webp"
+        ],
+        "discountPercent": 21,
+        "rate": 4,
+        "shippingToday": true,
+        "stock": 5,
+        "warranties": [
+            "گارانتی ۱۲ ماهه گوگل"
+        ],
+        "description": "لپ تاپ گوگل پیکسل بوک با پردازنده Google Tensor، رم ۱۶ گیگابایت و حافظه ۵۱۲ گیگابایت SSD، مناسب برای کاربران اکوسیستم گوگل.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Google Tensor"
+            },
+            {
+                "title": "رم",
+                "value": "16GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "512GB SSD"
+            }
+        ],
+        "colors": [
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "یخچال ساید بای ساید سامسونگ ۲۴ فوت",
+        "title_en": "Samsung 24 Side-by-Side Refrigerator",
+        "price": 48500000,
+        "category": "refrigerator",
+        "categorypersian": "یخچال و فریزر",
+        "image": [
+            "/image/product/ref-1.webp",
+            "/image/product/ref-1-1.webp"
+        ],
+        "discountPercent": 12,
+        "rate": 4.7,
+        "shippingToday": true,
+        "stock": 5,
+        "warranties": [
+            "گارانتی ۲۴ ماهه سامسونگ",
+            "گارانتی تعویض کالا"
+        ],
+        "description": "یخچال ساید بای ساید سامسونگ با ظرفیت ۲۴ فوت، مجهز به فناوری نوین خنک‌کنندگی و مصرف بهینه انرژی، مناسب برای خانواده‌های پرجمعیت.",
+        "specs": [
+            {
+                "title": "ظرفیت",
+                "value": "۲۴ فوت"
+            },
+            {
+                "title": "نوع کمپرسور",
+                "value": "اینورتر دیجیتال"
+            },
+            {
+                "title": "رنگ",
+                "value": "نقره‌ای"
+            }
+        ],
+        "colors": [
+            {
+                "title": "نقره‌ای",
+                "hexa": "#C0C0C0"
+            },
+            {
+                "title": "سفید",
+                "hexa": "#FFFFFF"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    }
+]
