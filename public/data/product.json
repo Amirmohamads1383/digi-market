@@ -871,42 +871,78 @@
     },
     {
         "id": 20,
-        "title": "یخچال ساید بای ساید سامسونگ ۲۴ فوت",
-        "title_en": "Samsung 24 Side-by-Side Refrigerator",
-        "price": 48500000,
-        "category": "refrigerator",
-        "categorypersian": "یخچال و فریزر",
+        "title": "بازی The Last Of Us II مخصوص PS5",
+        "title_en": "The Last Of Us II PS5",
+        "price": 5880000,
+        "category": "game",
+        "categorypersian": "گیم و کنسول",
         "image": [
-            "/image/product/ref-1.webp",
-            "/image/product/ref-1-1.webp"
+            "/image/product/console-3.webp"
         ],
-        "discountPercent": 12,
-        "rate": 4.7,
+        "discountPercent": 0,
+        "rate": 4.9,
         "shippingToday": true,
-        "stock": 5,
+        "stock": 16,
+        "description": "بازی The Last of Us Part II مخصوص PS5 The Last of Us Part II یکی از تحسین‌شده‌ترین بازی‌های اکشن-ماجراجویی و بقا است که داستانی احساسی، گیم‌پلی درگیرکننده و گرافیکی خیره‌کننده را ارائه می‌دهد. در این نسخه، شما در نقش الی قرار می‌گیرید که سفری انتقامی را در دنیایی آخرالزمانی و بی‌رحم آغاز می‌کند. بازی با روایت داستانی عمیق، گیم‌پلی مخفی‌کاری، مبارزات تنش‌زا و هوش مصنوعی پیشرفته، تجربه‌ای بی‌نظیر و فراموش‌نشدنی را رقم می‌زند. نسخه The Last of Us Part II Remastered برای PS5 بهینه شده و از ویژگی‌هایی مانند گرافیک 4K، نرخ فریم بالاتر، بارگذاری سریع‌تر و پشتیبانی از قابلیت‌های دسته دوال‌سنس بهره می‌برد که تجربه‌ای روان‌تر و عمیق‌تر را ارائه می‌دهد. علاوه بر این، این نسخه شامل حالت جدید No Return (روگ‌لایک)، بهبودهای بصری و جزئیات بیشتر در محیط‌ها و شخصیت‌هاست. اگر از طرفداران بازی‌های داستان‌محور و احساسی هستید، این عنوان یکی از برترین بازی‌هایی است که می‌توانید روی PS5 تجربه کنید.",
+        "specs": [
+            {
+                "title": "سازگار با کنسول",
+                "value": "پلی استیشن ۵"
+            },
+            {
+                "title": "ژانر بازی",
+                "value": "اکشن"
+            },
+            {
+                "title": "مناسب برای رده سنی",
+                "value": "۱۹ سال به بالا"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "title": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت",
+        "title_en": "Xiaomi Poco X7 Pro 512GB 12GB RAM",
+        "price": 104998000,
+        "category": "mobile",
+        "categorypersian": "موبایل",
+        "image": [
+            "/image/product/mobile-5.webp",
+            "/image/product/mobile-5-1.webp",
+            "/image/product/mobile-5-2.webp",
+            "/image/product/mobile-5-3.webp",
+            "/image/product/mobile-5-4.webp"
+        ],
+        "discountPercent": 8,
+        "rate": 3.6,
+        "shippingToday": true,
+        "stock": 2,
         "warranties": [
-            "گارانتی ۲۴ ماهه سامسونگ",
-            "گارانتی تعویض کالا"
+            "گارانتی ۲۴ ماهه شیائومی"
         ],
         "description": "یخچال ساید بای ساید سامسونگ با ظرفیت ۲۴ فوت، مجهز به فناوری نوین خنک‌کنندگی و مصرف بهینه انرژی، مناسب برای خانواده‌های پرجمعیت.",
         "specs": [
             {
-                "title": "ظرفیت",
-                "value": "۲۴ فوت"
+                "title": "نوع گوشی موبایل",
+                "value": "سیستم عامل اندروید"
             },
             {
-                "title": "نوع کمپرسور",
-                "value": "اینورتر دیجیتال"
+                "title": "دسته ‌بندی",
+                "value": "میان‌رده"
             },
             {
-                "title": "رنگ",
-                "value": "نقره‌ای"
+                "title": "مدل",
+                "value": "Poco X۷ Pro"
+            },
+            {
+                "title": "زمان معرفی",
+                "value": "۹ ژانویه ۲۰۲۵"
             }
         ],
         "colors": [
             {
-                "title": "نقره‌ای",
-                "hexa": "#C0C0C0"
+                "title": "زرد",
+                "hexa": "#ffff00"
             },
             {
                 "title": "سفید",
@@ -915,6 +951,507 @@
             {
                 "title": "مشکی",
                 "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "title": "ماوس گیمینگ مکس تاچ مدل MX305G",
+        "title_en": "Max Touch MX305G Gaming Mouse",
+        "price": 1224000,
+        "category": "laptop",
+        "categorypersian": "لپ تاپ",
+        "image": [
+            "/image/product/mouse-1.webp",
+            "/image/product/mouse-1-1.webp",
+            "/image/product/mouse-1-2.webp"
+        ],
+        "discountPercent": 21,
+        "rate": 2.4,
+        "shippingToday": true,
+        "stock": 1,
+        "description": "موس گیمینگ مکس تاچ . بسیار خوش دست و راحت در استفاده . دارای سیم کنفی که به هیچ وجه قطع نمیشود . کفی موس از جنس استیل میباشد و براحتی بروی پد موس می لغزد . با هر حرکت موس رنگ نور ال ای دی عوض می گردد . اسکرول بزرگ و بسیار راحت .",
+        "specs": [
+            {
+                "title": "وزن",
+                "value": "۱۱۰ گرم"
+            },
+            {
+                "title": "ابعاد",
+                "value": "۱۴۰x۷۰x۵۰ میلی‌متر"
+            },
+            {
+                "title": "تعداد کلید",
+                "value": "۶ عدد"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#000000"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "title": "گوشی موبایل اپل مدل iPhone 17 CH دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+        "title_en": "Apple iPhone 17 CH Dual SIM 256GB 8GB RAM",
+        "price": 112900000,
+        "category": "mobile",
+        "categorypersian": "گوشی موبایل",
+        "image": [
+            "/image/product/mobile-4.webp",
+            "/image/product/mobile-4-1.webp",
+            "/image/product/mobile-4-2.webp"
+        ],
+        "discountPercent": 4,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 12,
+        "warranties": [
+            "۱۸ ماه گارانتی شرکتی",
+            "ضمانت اصالت و سلامت فیزیکی کالا"
+        ],
+        "description": "گوشی iPhone 17 با نمایشگر 6.3 اینچی Super Retina XDR OLED، تراشه قدرتمند A19، حافظه داخلی 256 گیگابایت و رم 8 گیگابایت، عملکردی سریع و روان را در اجرای برنامه‌ها و بازی‌ها ارائه می‌دهد. دوربین اصلی 48 مگاپیکسلی با لرزشگیر اپتیکال و دوربین فوق عریض، کیفیت بسیار بالایی در عکاسی و فیلم‌برداری فراهم می‌کنند. این مدل از شبکه 5G، Face ID، استاندارد مقاومت IP68 و شارژ بی‌سیم MagSafe نیز پشتیبانی می‌کند و انتخابی مناسب برای کاربران حرفه‌ای و روزمره است.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Apple A19"
+            },
+            {
+                "title": "حافظه رم",
+                "value": "8GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "256GB"
+            },
+            {
+                "title": "اندازه نمایشگر",
+                "value": "6.3 اینچ Super Retina XDR OLED"
+            },
+            {
+                "title": "دوربین اصلی",
+                "value": "48 مگاپیکسل"
+            },
+            {
+                "title": "باتری",
+                "value": "پشتیبانی از شارژ سریع و MagSafe"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#1E1E1E"
+            },
+            {
+                "title": "سفید",
+                "hexa": "#F5F5F5"
+            },
+            {
+                "title": "آبی",
+                "hexa": "#7DA7D9"
+            },
+            {
+                "title": "سبز",
+                "hexa": "#9CAF88"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "title": "گوشی موبایل اپل مدل iPhone 13 CH دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+        "title_en": "Apple iPhone 13 CH Dual SIM 128GB 4GB RAM",
+        "price": 58900000,
+        "category": "mobile",
+        "categorypersian": "گوشی موبایل",
+        "image": [
+            "/image/product/mobile-6.webp",
+            "/image/product/mobile-6-1.webp",
+            "/image/product/mobile-6-2.webp",
+            "/image/product/mobile-6-3.webp"
+        ],
+        "discountPercent": 8,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 18,
+        "warranties": [
+            "۱۸ ماه گارانتی شرکتی",
+            "ضمانت اصالت و سلامت فیزیکی کالا"
+        ],
+        "description": "گوشی iPhone 13 یکی از محبوب‌ترین محصولات اپل است که با نمایشگر 6.1 اینچی Super Retina XDR OLED، تراشه قدرتمند Apple A15 Bionic، حافظه داخلی 128 گیگابایت و رم 4 گیگابایت، عملکردی سریع و روان در اجرای برنامه‌ها و بازی‌ها ارائه می‌دهد. دوربین دوگانه 12 مگاپیکسلی با قابلیت فیلم‌برداری 4K، کیفیت بسیار بالایی در ثبت تصاویر و ویدئوها دارد. این مدل از فناوری 5G، Face ID، استاندارد مقاومت IP68، شارژ سریع و شارژ بی‌سیم MagSafe نیز پشتیبانی می‌کند و برای استفاده روزمره، عکاسی و تولید محتوا انتخابی بسیار مناسب است.",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "Apple A15 Bionic"
+            },
+            {
+                "title": "حافظه رم",
+                "value": "4GB"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "128GB"
+            },
+            {
+                "title": "نمایشگر",
+                "value": "6.1 اینچ Super Retina XDR OLED"
+            },
+            {
+                "title": "دوربین اصلی",
+                "value": "دوگانه 12 + 12 مگاپیکسل"
+            },
+            {
+                "title": "سیستم عامل",
+                "value": "iOS"
+            },
+            {
+                "title": "باتری",
+                "value": "پشتیبانی از شارژ سریع و شارژ بی‌سیم MagSafe"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#1C1C1E"
+            },
+            {
+                "title": "سفید",
+                "hexa": "#F5F5F7"
+            },
+            {
+                "title": "آبی",
+                "hexa": "#4E73A8"
+            },
+            {
+                "title": "صورتی",
+                "hexa": "#F7C6D5"
+            },
+            {
+                "title": "قرمز",
+                "hexa": "#C1121F"
+            },
+            {
+                "title": "سبز",
+                "hexa": "#4F7F6A"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "title": "کنسول بازی مایکروسافت مدل Xbox Series X Digital Edition ظرفیت 1 ترابایت",
+        "title_en": "Microsoft Xbox Series X Digital Edition 1TB",
+        "price": 48990000,
+        "category": "console",
+        "categorypersian": "کنسول بازی",
+        "image": [
+            "/image/product/console-6.webp",
+            "/image/product/console-6-1.webp",
+            "/image/product/console-6-2.webp",
+            "/image/product/console-6-3.webp"
+        ],
+        "discountPercent": 6,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 7,
+        "warranties": [
+            "۱۸ ماه گارانتی شرکتی",
+            "ضمانت اصالت و سلامت فیزیکی کالا"
+        ],
+        "description": "کنسول Xbox Series X Digital Edition با حافظه داخلی 1 ترابایت NVMe SSD، تجربه‌ای سریع و روان از اجرای بازی‌های نسل نهم ارائه می‌دهد. این مدل با پردازنده هشت هسته‌ای AMD Zen 2، پردازنده گرافیکی RDNA 2 با توان 12 ترافلاپس، 16 گیگابایت حافظه GDDR6 و پشتیبانی از وضوح 4K و نرخ تازه‌سازی تا 120 فریم بر ثانیه، انتخابی مناسب برای گیمرهای حرفه‌ای است. نسخه Digital Edition فاقد درایو نوری بوده و تمامی بازی‌ها به‌صورت دیجیتالی دانلود و اجرا می‌شوند. همچنین از قابلیت‌هایی مانند Ray Tracing، Quick Resume، Dolby Vision و Dolby Atmos پشتیبانی می‌کند. :contentReference[oaicite:0]{index=0}",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "AMD Zen 2 هشت هسته‌ای"
+            },
+            {
+                "title": "پردازنده گرافیکی",
+                "value": "AMD RDNA 2 - 12 TFLOPS"
+            },
+            {
+                "title": "حافظه رم",
+                "value": "16GB GDDR6"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "1TB NVMe SSD"
+            },
+            {
+                "title": "حداکثر وضوح تصویر",
+                "value": "True 4K"
+            },
+            {
+                "title": "نرخ فریم",
+                "value": "تا 120 فریم بر ثانیه"
+            },
+            {
+                "title": "درایو نوری",
+                "value": "ندارد (Digital Edition)"
+            }
+        ],
+        "colors": [
+            {
+                "title": "سفید",
+                "hexa": "#F5F5F5"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#1E1E1E"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "title": "دسته بازی پلی استیشن 5 سونی مدل DualSense Edge",
+        "title_en": "Sony PlayStation 5 DualSense Edge Wireless Controller",
+        "price": 16990000,
+        "category": "accessories",
+        "categorypersian": "لوازم جانبی",
+        "image": [
+            "/image/product/console-7.webp",
+            "/image/product/console-7-1.webp"
+        ],
+        "discountPercent": 7,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 15,
+        "warranties": [
+            "۱۸ ماه گارانتی شرکتی",
+            "ضمانت اصالت و سلامت فیزیکی کالا"
+        ],
+        "description": "دسته بازی DualSense Edge نسخه حرفه‌ای کنترلر پلی‌استیشن 5 است که با امکانات شخصی‌سازی پیشرفته برای گیمرهای حرفه‌ای طراحی شده است. این کنترلر از دکمه‌های قابل برنامه‌ریزی، تریگرهای قابل تنظیم، استیک‌های آنالوگ با قابلیت تغییر حساسیت، پروفایل‌های اختصاصی، دکمه‌های پشتی قابل تعویض و بازخورد لمسی (Haptic Feedback) بهره می‌برد. همچنین تریگرهای تطبیقی (Adaptive Triggers)، میکروفون داخلی، اتصال بی‌سیم و سیمی از طریق USB-C و کیف حمل به همراه لوازم جانبی مختلف، تجربه‌ای حرفه‌ای و شخصی‌سازی‌شده را برای کاربران PS5 فراهم می‌کند. :contentReference[oaicite:0]{index=0}",
+        "specs": [
+            {
+                "title": "نوع اتصال",
+                "value": "بی‌سیم و USB Type-C"
+            },
+            {
+                "title": "سازگار با",
+                "value": "PlayStation 5 و PC"
+            },
+            {
+                "title": "ویژگی‌ها",
+                "value": "Adaptive Triggers و Haptic Feedback"
+            },
+            {
+                "title": "دکمه‌های پشتی",
+                "value": "دارد (قابل تعویض)"
+            },
+            {
+                "title": "پروفایل کاربری",
+                "value": "قابل ذخیره و تغییر"
+            },
+            {
+                "title": "استیک آنالوگ",
+                "value": "قابل تعویض و تنظیم حساسیت"
+            },
+            {
+                "title": "اقلام همراه",
+                "value": "کیف حمل، کابل USB-C، سری استیک و دکمه‌های پشتی"
+            }
+        ],
+        "colors": [
+            {
+                "title": "سفید",
+                "hexa": "#F5F5F5"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#1A1A1A"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "title": "کنسول بازی سونی مدل PlayStation 5 Slim ظرفیت 1 ترابایت ریجن CFI-2116 اروپا",
+        "title_en": "Sony PlayStation 5 Slim 1TB CFI-2116 Europe",
+        "price": 42990000,
+        "category": "console",
+        "categorypersian": "کنسول بازی",
+        "image": [
+            "/image/product/console-5.webp",
+            "/image/product/console-5-1.webp",
+            "/image/product/console-5-2.webp"
+        ],
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 9,
+        "warranties": [
+            "۱۸ ماه گارانتی شرکتی",
+            "ضمانت اصالت و سلامت فیزیکی کالا"
+        ],
+        "description": "کنسول PlayStation 5 Slim با طراحی باریک‌تر و سبک‌تر نسبت به نسخه استاندارد، تجربه‌ای قدرتمند از بازی‌های نسل نهم را ارائه می‌دهد. این مدل به پردازنده هشت هسته‌ای AMD Zen 2، پردازنده گرافیکی RDNA 2، حافظه رم 16 گیگابایت GDDR6 و حافظه داخلی SSD یک ترابایتی مجهز شده است. پشتیبانی از فناوری Ray Tracing، رزولوشن 4K، نرخ تازه‌سازی تا 120 هرتز، صدای سه‌بعدی Tempest 3D AudioTech و کنترلر DualSense با قابلیت Adaptive Triggers و Haptic Feedback، تجربه‌ای روان و لذت‌بخش را برای گیمرها فراهم می‌کند. نسخه ریجن اروپا CFI-2116 از جدیدترین بازنگری‌های سخت‌افزاری این کنسول محسوب می‌شود. :contentReference[oaicite:0]{index=0}",
+        "specs": [
+            {
+                "title": "پردازنده",
+                "value": "AMD Zen 2 هشت هسته‌ای"
+            },
+            {
+                "title": "پردازنده گرافیکی",
+                "value": "AMD RDNA 2"
+            },
+            {
+                "title": "حافظه رم",
+                "value": "16GB GDDR6"
+            },
+            {
+                "title": "حافظه داخلی",
+                "value": "1TB SSD"
+            },
+            {
+                "title": "حداکثر وضوح تصویر",
+                "value": "4K UHD"
+            },
+            {
+                "title": "نرخ تازه‌سازی",
+                "value": "تا 120Hz"
+            },
+            {
+                "title": "فناوری صوتی",
+                "value": "Tempest 3D AudioTech"
+            },
+            {
+                "title": "اتصالات",
+                "value": "Wi-Fi 6، Bluetooth 5.1، HDMI، USB Type-C"
+            }
+        ],
+        "colors": [
+            {
+                "title": "سفید",
+                "hexa": "#F4F4F4"
+            },
+            {
+                "title": "مشکی",
+                "hexa": "#1B1B1B"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "title": "بازی EA SPORTS FC 26 نسخه استاندارد مخصوص PS5",
+        "title_en": "EA SPORTS FC 26 Standard Edition PS5",
+        "price": 4290000,
+        "category": "game",
+        "categorypersian": "بازی",
+        "image": [
+            "/image/product/console-1.webp"
+        ],
+        "discountPercent": 3,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 20,
+        "warranties": [
+            "ضمانت اصالت کالا"
+        ],
+        "description": "EA SPORTS FC 26 جدیدترین نسخه از مجموعه محبوب فوتبال EA Sports است که با گرافیک بهبودیافته، هوش مصنوعی پیشرفته، حالت‌های مختلف بازی از جمله Ultimate Team، Career Mode، Clubs و مسابقات آنلاین، تجربه‌ای واقع‌گرایانه از فوتبال را روی کنسول PS5 ارائه می‌دهد. این نسخه از قابلیت‌های کنترلر DualSense و کیفیت 4K نیز پشتیبانی می‌کند.",
+        "specs": [
+            {
+                "title": "پلتفرم",
+                "value": "PlayStation 5"
+            },
+            {
+                "title": "ژانر",
+                "value": "ورزشی"
+            },
+            {
+                "title": "تعداد بازیکن",
+                "value": "1 تا 4 نفر"
+            },
+            {
+                "title": "حالت آنلاین",
+                "value": "دارد"
+            }
+        ],
+        "colors": [
+            {
+                "title": "آبی",
+                "hexa": "#1D4ED8"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "title": "بازی Resident Evil Requiem مخصوص PS5",
+        "title_en": "Resident Evil Requiem PS5",
+        "price": 4990000,
+        "category": "game",
+        "categorypersian": "بازی",
+        "image": [
+            "/image/product/console-2.webp"
+        ],
+        "discountPercent": 5,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 12,
+        "warranties": [
+            "ضمانت اصالت کالا"
+        ],
+        "description": "Resident Evil Requiem جدیدترین نسخه از مجموعه Resident Evil است که با داستانی تاریک، فضای دلهره‌آور، گرافیک نسل نهم و گیم‌پلی ترکیبی از اکشن و بقا، تجربه‌ای هیجان‌انگیز را برای طرفداران این مجموعه فراهم می‌کند. بازی از قابلیت‌های کنترلر DualSense و کیفیت 4K روی PS5 پشتیبانی می‌کند. :contentReference[oaicite:0]{index=0}",
+        "specs": [
+            {
+                "title": "پلتفرم",
+                "value": "PlayStation 5"
+            },
+            {
+                "title": "ژانر",
+                "value": "ترسناک، اکشن"
+            },
+            {
+                "title": "تعداد بازیکن",
+                "value": "1 نفر"
+            },
+            {
+                "title": "حالت آنلاین",
+                "value": "ندارد"
+            }
+        ],
+        "colors": [
+            {
+                "title": "مشکی",
+                "hexa": "#1A1A1A"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "title": "بازی Grand Theft Auto V مخصوص PS5",
+        "title_en": "Grand Theft Auto V PS5",
+        "price": 2390000,
+        "category": "game",
+        "categorypersian": "بازی",
+        "image": [
+            "/image/product/console-3.webp"
+        ],
+        "discountPercent": 10,
+        "rate": 5,
+        "shippingToday": true,
+        "stock": 25,
+        "warranties": [
+            "ضمانت اصالت کالا"
+        ],
+        "description": "Grand Theft Auto V نسخه ارتقایافته برای PlayStation 5 با کیفیت 4K، نرخ فریم بالاتر، بارگذاری سریع‌تر و بهبودهای گرافیکی، تجربه‌ای روان‌تر از داستان مایکل، فرانکلین و ترور و همچنین بخش آنلاین GTA Online را ارائه می‌دهد.",
+        "specs": [
+            {
+                "title": "پلتفرم",
+                "value": "PlayStation 5"
+            },
+            {
+                "title": "ژانر",
+                "value": "اکشن، جهان‌باز"
+            },
+            {
+                "title": "تعداد بازیکن",
+                "value": "1 نفر"
+            },
+            {
+                "title": "حالت آنلاین",
+                "value": "دارد"
+            }
+        ],
+        "colors": [
+            {
+                "title": "آبی",
+                "hexa": "#2563EB"
             }
         ]
     }
