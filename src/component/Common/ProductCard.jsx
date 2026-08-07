@@ -27,7 +27,7 @@ export default function ProductCard({ product }) {
         </Link>
         <div className="flex items-center justify-between w-full gap-2">
           <div className="flex items-center gap-1 sm:gap-1.5 flex-wrap">
-            {product.colors.map((color) => (
+            {product?.colors?.map((color) => (
               <span
                 key={color.title}
                 className="w-4 h-4 sm:w-5 sm:h-5 rounded-full border border-Caption/35"
