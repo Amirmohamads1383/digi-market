@@ -6,6 +6,7 @@ import Banner from "../../component/Home/Banner";
 import BestSelling from "../../component/Home/BestSelling";
 import MostPopular from "../../component/Home/MostPopular";
 import Mobiles from "../../component/Home/Mobiles";
+import Blog from "../../component/Home/Blog";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <BestSelling />
       <Mobiles />
       <MostPopular />
+      <Blog />
     </>
   );
 }
