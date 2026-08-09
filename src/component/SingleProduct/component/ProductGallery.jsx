@@ -22,7 +22,7 @@ export default function ProductGallery({ product }) {
   const remainingImages = product?.image?.length - 4;
 
   return (
-    <div className="w-2/6">
+    <div className="w-full lg:w-2/6">
       <div className="flex flex-col gap-4 p-3 bg-white border border-Caption/35 rounded-xl">
         {/* Main Picture */}
         <img
