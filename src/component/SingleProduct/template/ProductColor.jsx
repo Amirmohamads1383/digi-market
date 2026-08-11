@@ -8,7 +8,7 @@ export default function ProductColor({ colors }) {
   };
 
   return (
-    <div className="flex items-center justify-between gap-3 p-4 bg-white border border-Caption/35 rounded-xl">
+    <div className="flex items-center justify-between gap-3 w-full p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex flex-col gap-1">
         <h4 className="font-medium text-Caption">رنگ انتخاب شده</h4>
         <span className="text-lg font-bold text-Title">
