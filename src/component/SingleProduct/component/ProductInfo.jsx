@@ -19,7 +19,7 @@ export default function ProductInfo({ product }) {
       {/* warranty */}
       {product?.warranty && <ProductWarranty warranty={product?.warranty} />}
       <div className="flex gap-4 items-start col-span-2">
-        <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-col gap-4 w-3/4">
           {/* Colors */}
           {product?.colors && <ProductColor colors={product.colors} />}
           {/* Features */}

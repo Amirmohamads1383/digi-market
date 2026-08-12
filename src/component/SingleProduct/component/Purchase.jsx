@@ -7,7 +7,7 @@ export default function Purchase({ product }) {
     ? Math.round(product?.price * (1 - product?.discountPercent / 100))
     : product?.price;
   return (
-    <div className="flex flex-col gap-3 w-full p-4 bg-white border border-Caption/35 rounded-xl">
+    <div className="flex flex-col gap-3 w-1/2 p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex items-center justify-between">
         <span className="font-medium text-Title">فروشنده</span>
         <span className="flex items-center justify-center gap-1 font-semibold text-Primary">

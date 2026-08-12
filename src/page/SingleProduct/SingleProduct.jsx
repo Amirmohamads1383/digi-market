@@ -3,6 +3,7 @@ import Breadcrumb from "../../component/Common/Breadcrump";
 import ProductHero from "../../component/SingleProduct/ProductHero";
 import { useParams } from "react-router";
 import SimilarProducts from "../../component/SingleProduct/SimilarProducts";
+import Features from "../../component/SingleProduct/Features";
 
 export default function SingleProduct() {
   const { id } = useParams();
@@ -51,6 +52,7 @@ export default function SingleProduct() {
       <Breadcrumb />
       <ProductHero product={product} />
       <SimilarProducts currentCat={currentCat} currentProductId={product?.id}/>
+      <Features product={product}/>
     </>
   );
 }
