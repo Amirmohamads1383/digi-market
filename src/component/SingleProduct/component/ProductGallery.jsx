@@ -29,17 +29,17 @@ export default function ProductGallery({ product }) {
           src={product?.image[0]}
           alt={product?.title}
           onClick={() => setIsOpen(true)}
-          className="w-full h-auto p-3 border border-Caption/35 rounded-xl cursor-pointer object-contain"
+          className="w-full h-100 lg:h-auto p-3 border border-Caption/35 rounded-xl cursor-pointer object-contain"
         />
         {/* Gallery */}
         {product?.image?.length > 2 ? (
-          <div className="grid grid-cols-4 items-center gap-6">
+          <div className="grid grid-cols-4 items-center gap-2 lg:gap-6">
             {product?.image.slice(1, 4).map((image, index) => (
               <img
                 key={index}
                 src={image}
                 alt=""
-                className="w-20 h-20 border-Caption/35 object-cover rounded-lg cursor-pointer border"
+                className="w-15 md:w-20 h-15 md:h-20 border-Caption/35 object-cover rounded-lg cursor-pointer border"
                 onClick={() => {
                   setCurrentImage(index + 1);
                   setIsOpen(true);
@@ -48,9 +48,9 @@ export default function ProductGallery({ product }) {
             ))}
             {remainingImages > 0 ? (
               <div
-                className="w-20 h-20 border-Caption/35 object-cover rounded-lg cursor-pointer border flex items-center justify-center bg-gray-100 hover:bg-gray-200 transition-colors"
+                className="w-15 md:w-20 h-15 md:h-20 border-Caption/35 object-cover rounded-lg cursor-pointer border flex items-center justify-center bg-gray-100 hover:bg-gray-200 transition-colors"
                 onClick={() => {
-                  setCurrentImage(4); // رفتن به عکس پنجم
+                  setCurrentImage(4);
                   setIsOpen(true);
                 }}
               >
@@ -63,7 +63,7 @@ export default function ProductGallery({ product }) {
                 <img
                   src={product?.image[4]}
                   alt=""
-                  className="w-20 h-20 border-Caption/35 object-cover rounded-lg cursor-pointer border"
+                  className="w-15 md:w-20 h-15 md:h-20 border-Caption/35 object-cover rounded-lg cursor-pointer border"
                   onClick={() => {
                     setCurrentImage(4);
                     setIsOpen(true);

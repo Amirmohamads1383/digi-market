@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProductWarranty({ warranty }) {
   return (
-    <div className="flex flex-col gap-3 p-4 bg-white border border-Caption/35 rounded-xl">
+    <div className="flex flex-col gap-3 col-span-2 md:col-span-1 p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex items-center justify-between">
         <label
           htmlFor="warranty-0"

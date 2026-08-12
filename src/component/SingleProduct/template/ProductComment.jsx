@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProductComment({ rate }) {
   return (
-    <div className="flex items-center justify-between gap-3 p-4 bg-white border border-Caption/35 rounded-xl">
+    <div className="hidden md:flex items-center justify-between gap-3 p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex flex-col gap-1">
         <span className="font-medium text-Caption">امتیاز خریداران</span>
         <span className="flex items-center gap-1 font-bold text-Title">

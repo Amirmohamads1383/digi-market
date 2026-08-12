@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProductFeatures({ specs }) {
   return (
-    <div className="flex flex-col gap-3 w-full p-4 bg-white border border-Caption/35 rounded-xl">
+    <div className="hidden lg:flex flex-col gap-3 w-full p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex items-center justify-between">
         <span className="font-medium text-Caption">ویژگی ها</span>
         <span className="flex items-center gap-1 text-sm font-medium text-Primary">

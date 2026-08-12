@@ -45,7 +45,9 @@ export default function Features({ product }) {
         <ul className="flex flex-col">
           {product?.specs.map((spec) => (
             <li className="flex px-3 py-3.5 rounded-md odd:bg-transparent even:bg-Caption/25 *:text-sm">
-              <span className="font-semibold text-Caption w-1/4">{spec?.title} :</span>
+              <span className="font-semibold text-Caption w-2/5 lg:w-1/4">
+                {spec?.title} :
+              </span>
               <span className="text-Title font-bold">{spec?.value}</span>
             </li>
           ))}
@@ -112,19 +114,19 @@ export default function Features({ product }) {
   return (
     <section className="container pt-12 lg:pt-16 flex flex-col lg:flex-row items-start gap-6">
       <div className="flex flex-col gap-4 w-full">
-        <div className="p-4 bg-white border border-Caption/35 rounded-xl">
-          <ul className="flex items-start gap-6">
+        <div className="p-2 md:p-4 bg-white border border-Caption/35 rounded-xl">
+          <ul className="flex items-start gap-2 md:gap-4 lg:gap-6">
             {tabs.map((tab) => (
               <li
                 key={tab.id}
-                className={`flex items-center justify-center gap-2 border-2 font-bold text-base px-3 py-2 rounded-2xl cursor-pointer transition-colors ${
+                className={`flex items-center justify-center gap-1 lg:gap-2 border-2 font-bold text-xs xs:text-sm md:text-base px-2 md:px-3 py-2 rounded-2xl cursor-pointer transition-colors ${
                   activeTab === tab.id
                     ? "text-Primary bg-transparent border-2 border-Primary "
                     : "text-Caption bg-Caption/15 border-transparent"
                 }`}
                 onClick={() => setActiveTab(tab.id)}
               >
-                {tab.icon}
+                <span className="hidden md:block">{tab.icon}</span>
                 {tab.label}
               </li>
             ))}
@@ -134,7 +136,6 @@ export default function Features({ product }) {
           {tabs.find((tab) => tab.id === activeTab)?.content}
         </div>
       </div>
-      <Purchase product={product} />
     </section>
   );
 }
