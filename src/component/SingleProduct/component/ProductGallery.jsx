@@ -127,7 +127,7 @@ export default function ProductGallery({ product }) {
           </button>
         </Modal>
       )}
-      <ProductActions />
+      <ProductActions product={product}/>
     </div>
   );
 }
