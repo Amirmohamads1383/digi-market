@@ -2,7 +2,11 @@ import React from "react";
 import { toast } from "sonner";
 import { useCart } from "../../../context/CartContext";
 
-export default function Purchase({ product, isCheckedWarranty }) {
+export default function Purchase({
+  product,
+  isCheckedWarranty,
+  selectedColor,
+}) {
   const { addToCart } = useCart();
   const hasDiscount = product?.discountPercent > 0;
 
@@ -14,7 +18,19 @@ export default function Purchase({ product, isCheckedWarranty }) {
     : mainPrice;
 
   const addToCartBtn = () => {
-    addToCart(product);
+    if (!selectedColor) {
+      toast.error("لطفاً یک رنگ را انتخاب کنید");
+      return;
+    }
+
+    const productWithColor = {
+      ...product,
+      selectedColor: selectedColor,
+      colorTitle: selectedColor.title,
+      colorHexa: selectedColor.hexa,
+    };
+
+    addToCart(productWithColor, 1, isCheckedWarranty);
     toast.success("محصول به سبد خرید اضافه شد");
   };
 

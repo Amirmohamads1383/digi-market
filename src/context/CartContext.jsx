@@ -61,7 +61,7 @@ export function CartProvider({ children }) {
     }
   }, [discountCode]);
 
-  /*  */
+  /* Update Applied Discount */
   useEffect(() => {
     if (discountCode && cartItems.length > 0) {
       const discountPercent = validDiscountCodes[discountCode];
@@ -72,6 +72,8 @@ export function CartProvider({ children }) {
         const discountAmount = (subtotal * discountPercent) / 100;
         setAppliedDiscount(discountAmount);
       }
+    } else {
+      setAppliedDiscount(0);
     }
   }, [cartItems, discountCode]);
 
@@ -150,6 +152,7 @@ export function CartProvider({ children }) {
     toast.info("کد تخفیف لغو شد");
   };
 
+  /* Add to Cart with Color Support */
   const addToCart = (product, quantity = 1, hasWarranty = false) => {
     if (discountCode) {
       setAppliedDiscount(0);
@@ -158,13 +161,20 @@ export function CartProvider({ children }) {
     }
 
     setCartItems((prev) => {
+      // Check if product exists with same id, warranty, and color
       const exist = prev.find(
-        (item) => item.id === product.id && item.hasWarranty === hasWarranty,
+        (item) =>
+          item.id === product.id &&
+          item.hasWarranty === hasWarranty &&
+          item.selectedColor?.title === product.selectedColor?.title,
       );
 
       if (exist) {
+        // Update quantity if exists
         const updatedItems = prev.map((item) =>
-          item.id === product.id && item.hasWarranty === hasWarranty
+          item.id === product.id &&
+          item.hasWarranty === hasWarranty &&
+          item.selectedColor?.title === product.selectedColor?.title
             ? {
                 ...item,
                 quantity: item.quantity + quantity,
@@ -174,37 +184,59 @@ export function CartProvider({ children }) {
         return updatedItems;
       }
 
+      // Add new item
       const newItems = [
         ...prev,
         {
           ...product,
           quantity,
           hasWarranty: hasWarranty,
+          // Ensure color info is preserved
+          selectedColor: product.selectedColor || null,
+          colorTitle: product.selectedColor?.title || null,
+          colorHexa: product.selectedColor?.hexa || null,
         },
       ];
       return newItems;
     });
   };
 
-  const removeFromCart = (id) => {
+  /* Remove from Cart */
+  const removeFromCart = (id, colorTitle = null) => {
     if (discountCode) {
       setAppliedDiscount(0);
       setDiscountCode(null);
       localStorage.removeItem("discount-code");
     }
-    setCartItems((prev) => prev.filter((item) => item.id !== id));
+
+    setCartItems((prev) => {
+      if (colorTitle) {
+        // Remove specific color variant
+        return prev.filter(
+          (item) =>
+            !(item.id === id && item.selectedColor?.title === colorTitle),
+        );
+      }
+      // Remove all variants of product
+      return prev.filter((item) => item.id !== id);
+    });
+
     toast.warning("محصول از سبد خرید حذف شد");
   };
 
-  const increaseQuantity = (id, hasWarranty = false) => {
+  /* Increase Quantity with Color Support */
+  const increaseQuantity = (id, hasWarranty = false, colorTitle = null) => {
     if (discountCode) {
       setAppliedDiscount(0);
       setDiscountCode(null);
       localStorage.removeItem("discount-code");
     }
+
     setCartItems((prev) =>
       prev.map((item) =>
-        item.id === id && item.hasWarranty === hasWarranty
+        item.id === id &&
+        item.hasWarranty === hasWarranty &&
+        item.selectedColor?.title === colorTitle
           ? {
               ...item,
               quantity: item.quantity + 1,
@@ -214,16 +246,20 @@ export function CartProvider({ children }) {
     );
   };
 
-  const decreaseQuantity = (id, hasWarranty = false) => {
+  /* Decrease Quantity with Color Support */
+  const decreaseQuantity = (id, hasWarranty = false, colorTitle = null) => {
     if (discountCode) {
       setAppliedDiscount(0);
       setDiscountCode(null);
       localStorage.removeItem("discount-code");
     }
+
     setCartItems((prev) =>
       prev
         .map((item) =>
-          item.id === id && item.hasWarranty === hasWarranty
+          item.id === id &&
+          item.hasWarranty === hasWarranty &&
+          item.selectedColor?.title === colorTitle
             ? {
                 ...item,
                 quantity: item.quantity - 1,
@@ -234,6 +270,7 @@ export function CartProvider({ children }) {
     );
   };
 
+  /* Clear Cart */
   const clearCart = () => {
     setCartItems([]);
     setAppliedDiscount(0);
