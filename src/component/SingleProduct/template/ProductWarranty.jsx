@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function ProductWarranty({ warranty }) {
+export default function ProductWarranty({
+  warranty,
+  checkedWarranty,
+  setIsCheckedWarranty,
+}) {
   return (
     <div className="flex flex-col gap-3 col-span-2 md:col-span-1 p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex items-center justify-between">
@@ -8,8 +12,14 @@ export default function ProductWarranty({ warranty }) {
           htmlFor="warranty-0"
           className="flex flex-row items-center gap-4 text-Title cursor-pointer"
         >
-          <input id="warranty-0" type="checkbox" className="peer hidden" />
-          <div className="h-5 w-5 flex rounded-md border-2 border-Title bg-white peer-checked:bg-Primary transition">
+          <input
+            id="warranty-0"
+            type="checkbox"
+            className="peer hidden"
+            checked={checkedWarranty}
+            onChange={(e) => setIsCheckedWarranty(e.target.checked)}
+          />
+          <div className="h-5 w-5 flex rounded-md border-2 border-Title bg-white peer-checked:bg-Primary peer-checked:border-Primary transition">
             <svg
               fill="none"
               viewBox="0 0 24 24"
@@ -28,9 +38,7 @@ export default function ProductWarranty({ warranty }) {
             <span className="text-lg font-semibold text-Title">
               {warranty?.company}
             </span>
-            <span className="text-xs font-medium text-Caption">
-              بیمه سامان
-            </span>
+            <span className="text-xs font-medium text-Caption">بیمه سامان</span>
           </div>
         </label>
         <div className="flex items-center gap-4">

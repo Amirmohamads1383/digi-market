@@ -1,13 +1,15 @@
-import { RouterProvider } from "react-router"
+import { RouterProvider } from "react-router";
 import routes from "./routes";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
-
   return (
     <>
-      <RouterProvider router={routes} />
+      <CartProvider>
+        <RouterProvider router={routes} />
+      </CartProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

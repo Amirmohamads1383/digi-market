@@ -1,11 +1,23 @@
 import React from "react";
+import { toast } from "sonner";
+import { useCart } from "../../../context/CartContext";
 
-export default function Purchase({ product }) {
+export default function Purchase({ product, isCheckedWarranty }) {
+  const { addToCart } = useCart();
   const hasDiscount = product?.discountPercent > 0;
 
-  const finalPrice = hasDiscount
+  const mainPrice = hasDiscount
     ? Math.round(product?.price * (1 - product?.discountPercent / 100))
     : product?.price;
+  const finalPrice = isCheckedWarranty
+    ? mainPrice + product.warranty.price
+    : mainPrice;
+
+  const addToCartBtn = () => {
+    addToCart(product);
+    toast.success("محصول به سبد خرید اضافه شد");
+  };
+
   return (
     <div className="flex flex-col gap-3 w-full lg:w-1/2 p-4 bg-white border border-Caption/35 rounded-xl">
       <div className="flex items-center justify-between">
@@ -178,7 +190,10 @@ export default function Purchase({ product }) {
             )}
           </div>
         </div>
-        <button className="flex items-center justify-center gap-2 py-4 w-full font-bold bg-Primary hover:bg-white text-white hover:text-Primary rounded-xl transition-all cursor-pointer">
+        <button
+          className="flex items-center justify-center gap-2 py-4 w-full font-bold bg-Primary hover:bg-white text-white hover:text-Primary rounded-xl transition-all cursor-pointer"
+          onClick={() => addToCartBtn()}
+        >
           افزودن به سبد خرید
           <svg
             xmlns="http://www.w3.org/2000/svg"

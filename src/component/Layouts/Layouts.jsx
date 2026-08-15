@@ -10,7 +10,7 @@ export default function Layouts() {
       <Toaster
         position="top-right"
         expand={false}
-        toastOptions={{ style: { fontFamily: "YekanBakh", color: "#3D4349" } }}
+        toastOptions={{ style: { fontFamily: "YekanBakh", color: "#0F0F0F" } }}
       />
       <Header />
       <ScrollRestoration />
