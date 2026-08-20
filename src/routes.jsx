@@ -5,6 +5,7 @@ import SingleProduct from "./page/SingleProduct/SingleProduct";
 import ContactUs from "./page/ContactUs/ContactUs";
 import AboutUs from "./page/AboutUs/AboutUs";
 import Cart from "./page/Cart/Cart";
+import NotFound from "./page/NotFound/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactUs />,
+      },
+      {
+        path: "/*",
+        element: <NotFound />,
       },
     ],
   },
