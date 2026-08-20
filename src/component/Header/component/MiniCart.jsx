@@ -119,11 +119,6 @@ export default function MiniCart({ isShowMiniCart }) {
                         />
                       </span>
                     )}
-                    {item.size && (
-                      <span className="text-[11px] text-Caption">
-                        سایز: {item.size}
-                      </span>
-                    )}
                   </div>
                   {/* Bottom */}
                   <div className="flex items-center justify-between gap-2 mt-2">
